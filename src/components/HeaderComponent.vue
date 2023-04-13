@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+header {
+    height: 90px;
+}
 img {
     width: 60px;
 }

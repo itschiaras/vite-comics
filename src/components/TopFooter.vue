@@ -1,5 +1,5 @@
 <template>
-    <footer>
+    <div id="footer-top">
         <div class="container">
             <div class="row">
                 <div class="col pt-4">
@@ -39,7 +39,7 @@
             </div>
 
         </div>
-    </footer>
+    </div>
 </template>
 
 <script>
@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-footer {
+#footer-top {
     background-image: url(../assets/images/footer-bg.jpg);
     height: 350px;
     color: white;
