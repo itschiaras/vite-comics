@@ -1,6 +1,6 @@
 <template>
     <header class="d-flex justify-content-between container">
-        <div class="pt-4 pb-4">
+        <div class="pt-3 pb-3">
             <img src="../assets/images/dc-logo.png" alt="">
         </div>
         <ul class="mb-0 d-flex align-items-center gap-4 text-uppercase">
@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+img {
+    width: 60px;
+}
 li {
     border-bottom: 5px solid transparent;
     height: 100%;

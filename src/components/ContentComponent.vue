@@ -1,7 +1,10 @@
 <template>
-    <div class="contentContainer container bg-dark">
-        <h1 class="text-white">{{ text }}</h1>
+    <div class="bg-dark">
+        <div class="contentContainer container ">
+        <h3 class="text-white">{{ text }}</h3>
     </div>
+    </div>
+    
 </template>
 
 <script>
@@ -17,7 +20,7 @@
 
 <style lang="scss" scoped>
     .contentContainer {
-        height: 150px;
+        height: 100px;
         display: flex;
         align-items: center;
     }
