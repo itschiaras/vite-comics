@@ -6,3 +6,12 @@ $fa-font-path: './webfonts';
 @import '@fortawesome/fontawesome-free/scss/solid.scss';
 
 @import 'bootstrap/scss/bootstrap';
+
+
+body {
+  font-family: 'Sofia Sans Condensed', 'sans-serif';
+}
+
+ul {
+  list-style: none;
+}
