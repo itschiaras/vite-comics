@@ -1,7 +1,7 @@
 <template>
     <div class="bg-dark">
         <div class="contentContainer container ">
-        <h3 class="text-white">{{ text }}</h3>
+        <h3 class="text-white mb-0">{{ text }}</h3>
     </div>
     </div>
     
