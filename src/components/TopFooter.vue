@@ -65,11 +65,12 @@ export default {
     h4 {
         text-transform: uppercase;
         margin-bottom: 0;
+        max-width: 100px;
     }
 
     a {
         text-decoration: none;
-        color: white;
+        color: rgb(144, 143, 143);
     }
     .img-container {
         height: 350px;
