@@ -1,5 +1,5 @@
 <template>
-    <div class="col  pt-5 pb-5">
+    <div class="col pt-5 pb-5">
         <div class="text-center">
             <img :src="image" :alt="title" class="img-fluid">
         </div>

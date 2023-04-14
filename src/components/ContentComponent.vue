@@ -4,9 +4,9 @@
     </div>
     <div class="bg-dark">
         <div class="contentContainer container ">
-            <div class="row row-cols-6">
+            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-6">
                 <CardComponent v-for="(card, index) in cards" :key="index" :image="card.thumb" :title="card.series"/>
-                <div class="col-12 text-center">
+                <div class="w-100 d-flex justify-content-center">
                     <button class="text-uppercase border-0">load more</button>
                 </div>
             </div>
