@@ -25,7 +25,7 @@
 
 <style lang="scss" scoped>
     #footer-bottom {
-        height: calc(100% - 640px);
+        height: 80px;
         background-color: #303030;
 
         button {
